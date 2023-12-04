@@ -4,3 +4,115 @@
     padding: 0;
     font-family: "Lato", sans-serif;
 }
+
+/* Navbar starts from here */
+nav{
+    background-color: #9376e0;
+}
+.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 70px;
+    display: flex;
+}
+.nav-title{
+    width: 50%;
+    display: flex;
+    align-items: center;  
+    font-size: 24px;
+}
+.urban-logo{
+    width: 50px;
+}
+.urban{
+    color: white;
+}
+.hive{
+    color: #e893cf;
+}
+.nav-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu> .login{
+    background-color: #e893cf;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.fa-solid{
+    color: #9376e0;
+}
+
+/* Banner starts from here */
+.banner-container{
+    background-color: #E6E9EB;
+    max-width: 1440px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.banner-details{
+    width: 50%;
+    text-align: center;
+}
+.banner-details h3{
+    font-size: 48px;
+    background-image: linear-gradient(#9376e0, #e893cf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.banner-details p{
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.banner-icon{
+    font-size: 32px;
+    width: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: skyblue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-square-instagram{
+    color: rgb(228, 74, 125);
+}
+.buttons button{
+    padding: 10px 20px;
+    border: 2px solid #9376e0;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: #dadddf;
+    color: green;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 50%;
+    border-radius: 5px;
+}

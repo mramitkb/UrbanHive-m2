@@ -1,6 +1,29 @@
     /* MOBILE Devices */
 @media screen and (max-width: 425px) {
     
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-menu{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-details{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
 }
 
 
