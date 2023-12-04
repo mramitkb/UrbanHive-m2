@@ -1,5 +1,5 @@
     /* MOBILE Devices */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     
     .nav-container{
         flex-direction: column;
@@ -25,10 +25,21 @@
     .banner-img{
         width: 100%;
     }
+    .all-product{
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+    }
+    .product-icon{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
     /* TABLET and Others */
-@media screen and (max-width: 768px) {
-    
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .all-product{
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
+    }
 }
