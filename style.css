@@ -230,3 +230,40 @@ nav{
     text-align: center;
     font-size: 32px;
 }
+.review-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.review{
+    background-color: #E894CE;
+    flex-basis: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.customer img{
+    height: 60px;
+    width: 60px;
+}
+.review p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.stars{
+    text-align: center;
+}
+.fa-star{
+    color: green;
+}
+.fa-black{
+    color: black;
+}
