@@ -1,5 +1,31 @@
     /* MOBILE Devices */
-@media screen and (max-width: 767px) {
+    /* TABLET and Others */
+    @media screen and (max-width: 1024px){
+        .all-product{
+            grid-template-columns: repeat(3,1fr);
+            padding: 20px;
+        }
+        .t-shirt-container{
+            flex-direction: column;
+            padding: 20px;
+        }
+        .t-shirt-img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .t-shirt-img img{
+            width: 80%;
+        }
+        .t-shirt-details{
+            width: 100%;
+        }
+        .t-shirt-details button{
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
     
     .nav-container{
         flex-direction: column;
@@ -26,20 +52,33 @@
         width: 100%;
     }
     .all-product{
-        grid-template-columns: repeat(2,1fr);
-        padding: 10px;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
     }
     .product-icon{
         flex-direction: column;
         gap: 20px;
     }
-}
-
-
-    /* TABLET and Others */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .all-product{
-        grid-template-columns: repeat(3,1fr);
+    .t-shirt-container{
+        flex-direction: column;
         padding: 20px;
     }
+    .t-shirt-img{
+        width: 100%;
+    }
+    .t-shirt-img img{
+        width: 100%;
+    }
+    .t-shirt-img p{
+        left: 70%;
+    }
+    .t-shirt-details{
+        width: 100%;
+    }
+    .t-shirt-details button{
+        display: flex;
+        margin: 0 auto;
+    }
 }
+
+

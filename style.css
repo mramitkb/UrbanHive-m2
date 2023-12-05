@@ -133,6 +133,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    padding: 20px;
 }
 .product{
     box-shadow: 2px 2px 5px black;
@@ -152,6 +153,7 @@ nav{
 .space{
     margin-right: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
  .fa-cart-shopping{
     color: green;
@@ -165,4 +167,66 @@ nav{
     font-weight: bold;
     font-size: 16px;
     margin-top: 20px;
+}
+
+/* T-shirt starts from here */
+.t-shirt{
+    background-color: #917BDD;
+}
+.t-shirt-container{
+    max-width: 1440px;
+    margin: 50px auto 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-shirt-img{
+    width: 50%;
+    padding: 30px 0px;
+    position: relative;
+}
+.t-shirt-img p{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(235, 235, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    top: 9%;
+    left: 60%;
+}
+.t-shirt-details{
+    width: 50%;
+}
+.t-shirt-details h3{
+    font-size: 24px;
+}
+.t-shirt-details p{
+    margin: 30px 0px;
+}
+.t-shirt-details button{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.t-shirt-details button:hover{
+    cursor: pointer;
+    background-color: rgb(118, 156, 118);
+}
+
+/* Reviews starts from here */
+.review-container{
+    width: auto;
+    margin: 30px auto;
+}
+.review-container h2{
+    text-align: center;
+    font-size: 32px;
 }
