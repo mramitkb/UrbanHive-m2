@@ -267,3 +267,27 @@ nav{
 .fa-black{
     color: black;
 }
+
+/* Footer starts from here */
+footer{
+    background-color: #917BDD;
+    margin-top: 80px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.footer-container img{
+    height: 60px;
+    width: 60px;
+}
+div> p{
+    margin-top: 10px;
+    font-size: 14px;
+}
